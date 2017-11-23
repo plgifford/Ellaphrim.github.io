@@ -10,8 +10,8 @@ color: #000000;
 font-size: 32px
 
 }
-.button {
-    background-color: #4CAF50; /* Green */
+button {
+    background-color: blue;
     border: none;
     color: white;
     padding: 15px 32px;
