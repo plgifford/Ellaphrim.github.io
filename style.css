@@ -10,7 +10,7 @@ color: #000000;
 font-size: 32px
 
 }
-button {
+ button {
     background-color: blue;
     border: none;
     color: white;
@@ -19,5 +19,9 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+p2{color: black;
+font-size: 23px
+
 }
 /*P E N G U I N S FOREVAH*/
