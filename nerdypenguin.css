@@ -19,3 +19,24 @@ font-size: 32px
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+   }
+#p2{color: black;
+font-size: 23px;
+
+}
+#button2{
+
+ background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+/*P E N G U I N S FOREVAH*/
+
+hr{
+width: 20px;
+color: #00008B;
