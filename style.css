@@ -21,12 +21,22 @@ p {
     margin-right: 150px;
     margin-left: 150px;
     size: large;
-
 }
-a {
-	color: black;
 
 
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: underline;
 }
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
 
 
