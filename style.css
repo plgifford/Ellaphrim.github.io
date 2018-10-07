@@ -1,4 +1,5 @@
-body{background-color: #8138c1}
+body{background-color: #ADD8E6
+}
 
 
 button {
@@ -7,7 +8,8 @@ button {
     border-radius: 8px; 
     padding: 20px 30px;
     border: 0px;
-    background-color: #8138c1;
+    background-color: #ADD8E6
+;
     font-size: 20px;
 }
 
