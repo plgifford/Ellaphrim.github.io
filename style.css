@@ -22,7 +22,8 @@ p {
     margin-bottom: 20px;
     margin-right: 150px;
     margin-left: 150px;
-    font-size:20px
+    font-size:20px;
+    line-height:150%;
 }
 
 
