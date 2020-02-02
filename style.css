@@ -6,11 +6,12 @@ button {
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
     border-radius: 8px; 
-    padding: 20px 30px;
+    padding: 15px 15px;
     border: 0px;
-    background-color: #6B4984
-;
+    background-color: #6B4984;
     font-size: 20px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
 }
 
 button:hover {
@@ -24,6 +25,8 @@ p {
     margin-left: 300px;
     font-size: 18px;
     text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
 
 }
 
@@ -47,18 +50,27 @@ h3{
     margin-right: 300px;
     margin-left: 300px;
     text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
 }
 
 h1{
     margin-right: 300px;
     margin-left: 300px;
     text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: oblique;
+    font-size: 25px;
+ 
+
 }
 
 h2{
     margin-right: 300px;
     margin-left: 300px;
     text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
 
 
 }
