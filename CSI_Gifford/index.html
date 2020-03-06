@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CSI</title>
+
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="libraries/rita-full.min.js" type="text/javascript"></script>
+
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+  </head>
+  <body>
+    <h1><center>CSI</center></h1>
+    <center><h2>by Lake Gifford</h2></center>
+    <table>
+      <tr>
+        <td>Total Words</td>
+        <td>Total Characters</td>
+        <td>Average Word Length</td>
+        <td>Longest Word</td>
+        <td>Unique Words</td>
+        <td>Vocabulary "richness ratio"</td>
+        <td>Total Sentences</td>
+        <td>Chars per Sentence</td>
+        <td>Words per Sentence</td>
+
+      </tr>
+      <tr>
+        <td id = "wordCount" ></td>
+        <td id = "charCount" ></td>
+        <td id = "wordLength" ></td>
+        <td id = "longestWord" ></td>
+        <td id = "uniqueWords" ></td>
+        <td id = "richRatio"></td>
+        <td id = "sentenceCount" ></td>
+        <td id = "charPerSentence" ></td>
+        <td id = "wordsPerSentence" ></td>
+
+      </tr>
+    </table>
+    <br>
+    <center><a href="https://rednoise.org/rita/reference/PennTags.html">parts of speech tags</a></center>
+<br><br>
+
+
+
+
+  </body>
+</html>

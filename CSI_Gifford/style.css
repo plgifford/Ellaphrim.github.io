@@ -1,0 +1,33 @@
+th, td {
+  border: 2px solid black;
+  background-color: #DDA0DD;
+  padding: 12px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+
+
+}
+
+table{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+h1 {
+  font-size: 18;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+
+h2{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+
+}
+
+body {
+  background-color: #FFFACD;
+}
+
+a {
+  font-size: 18;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+}

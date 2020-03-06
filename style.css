@@ -39,12 +39,28 @@ a:link {
     color: black; 
     background-color: transparent; 
     text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 300px;
+    margin-left: 300px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    line-height: 80%;
 }
 
 a:visited {
     color: black;
     background-color: transparent;
     text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 300px;
+    margin-left: 300px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    line-height: 80%;
 }
 
 
