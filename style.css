@@ -1,4 +1,4 @@
-body{background-color: #6B4984  
+body{background-color: #b19cd9   
 }
 
 
@@ -8,7 +8,7 @@ button {
     border-radius: 8px; 
     padding: 15px 15px;
     border: 0px;
-    background-color: #6B4984;
+    background-color: #b19cd9 ;
     font-size: 20px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
@@ -33,8 +33,38 @@ p {
 }
 
 
+.top-container {
+  background-color: #b19cd9 ;
+  padding: 10px;
+  text-align: center;
+}
 
+/* Style the header */
+.header {
+  padding: 5px 16px;
+  background: #b19cd9 ;
+  color: black;
+}
 
+/* Page content */
+.content {
+  padding: 5px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+background-color: #3e8e41;
+}
 a:link {
     color: black; 
     background-color: transparent; 

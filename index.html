@@ -24,41 +24,45 @@
       </style>
 </head>
 <body>
-      
-  <div class="parallax"></div>
+   <div class="top-container">
+    <h1><center>@modularorigami_</center></h1>
+  <h4><center>reviews, tutorials, and tips on modular origami!</center></h4><h4><center>folded, written, and coded by lake gifford</center></h4>
 
-  <h1><center>modularorigami_</center></h1>
-  <h4><center>reviews, tutorials, and tips on modular origami!</center></h4>
 
-  <div class="parallax"></div>
+    <center>
+    <a href="CS.html"> <button type="button">CS</button></a>
+    <a href="TAZ.html"> <button type="button">taz!!</button></a>
+    <a href="books.html"> <button type="button">books</button></a>
+    <a href="music.html"> <button type="button">tunes</button></a>
+    <a href="origami.html"> <button type="button">origami</button></a>
+    <a href="links.html"> <button type="button">articles</button></a>
+  </center>
 
-  <p><center> <a href="CS.html"> <button type="button">CS</button></a></center></p>
+  
+</div>   
+ 
+<div class="header" id="myHeader">
+      <h2><center>@modularorigami_</center></h2>
+  </div>
+  
 
-  <div class="parallax"></div>
-
-  <p><center> <a href="TAZ.html"> <button type="button">taz!!</button></a></center></p>
-
-  <div class="parallax"></div>
-
-  <p><center> <a href="books.html"> <button type="button">books</button></a></center></p>
-
-  <div class="parallax"></div>
-
-  <p><center> <a href="music.html"> <button type="button">tunes</button></a></center></p>
-
-  <div class="parallax"></div>
-    
-  <p><center> <a href="origami.html"> <button type="button">origami</button></a></center></p>
-
-  <div class="parallax"></div>
-
-  <p><center> <a href="links.html"> <button type="button">articles</button></a></center></p>
-
-  <div class="parallax"></div>
 
   <div style="height:30px;background-color:#6B4984;font-size:12px"></div>
 
+<script>
+window.onscroll = function() {myFunction()};
 
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
 
 </body>
 </html>
