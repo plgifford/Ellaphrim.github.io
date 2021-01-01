@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>cool thing i'm doing with zinny!!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119552400-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119552400-1');
+</script>
+
+</head>
+<body>`
+
+<!-- Trigger/Open The Modal -->
+<center><button id="myBtn">open modal (ignore)</button></center>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>ignore for now i just need this code for later</p>
+  </div>
+
+</div>
+
+<script>
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+<div class="typewriter">
+  <h1>hello! welcome to slice of life simulations. please enter your login info!</h1><br>
+
+</div>
+<br>
+<form>
+ <center> <label for="fname">username</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">passcode</label>
+  <input type="text" id="lname" name="lname"></center><br>
+</form>
+
+<center><button onclick="setTimeout(myFunction, 3000);">submit!</button></center>
+
+
+<div class="typewriter">
+  <h1>hello! welcome to slice of life simulations. please enter your login info!</h1><br>
+<script>
+function myFunction() {
+
+}
+</script>
+</div>
+
+
+</body>
+</html>
+  
+    
+
